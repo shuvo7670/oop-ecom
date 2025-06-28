@@ -18,7 +18,7 @@ class Create {
     {
         ?>
             <h2 class="mb-4">Add New Product</h2>
-            <form method="post" action="store.php" class="bg-white p-4 rounded shadow-sm">
+            <form method="post" action="store.php" class="bg-white p-4 rounded shadow-sm" enctype="multipart/form-data">
                 <div class="row g-3">
                     <div class="col-md-6">
                         <label class="form-label">Name</label><input type="text" name="name" class="form-control" required>

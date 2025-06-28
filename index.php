@@ -40,7 +40,10 @@ class Main {
         ?>
             <div class="d-flex justify-content-between align-items-center mb-4">
                 <h1 class="h3">Product List</h1>
-                <a href="create.php" class="btn btn-primary">+ Add New Product</a>
+                <div class="actions-button">
+                    <a href="create.php" class="btn btn-primary">+ Add New Product</a>
+                    <a href="category.php" class="btn btn-info">+ Category</a>
+                </div>
             </div>
         <?php 
     }
